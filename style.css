@@ -1,65 +1,115 @@
-body {
-    background: url('kingjames.jpg');
-    text-align: center;
-    font-size:  62.5%;
-
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;  
+    background-image: url(kingjames.jpg);  
 }
 
+
 h1 {
-    color: white; border-left: 2rem;
-    font-size: 5.4rem;
-    margin-bottom: 12rem;
-    letter-spacing: 3px;
-    border-bottom: 0in;
-    margin-top: 15%;
-    background-color: purple;
-    font-weight: bold;
+    background-color: gray;
+    color: white;
     text-align: center;
+    height: 6vh;
+    margin: 6px;
+  
+
 }
 
 
 h2 {
-    color: white;
-    font-size: 4.2rem;
-    margin-bottom: 4rem;
-    font-weight: 700;
-
-}
-
-
-h3 {
-    font-size: 2.8rem;
-    font-weight: 500;
-}
-
-
-/* 
-.container {
-    width: 100px;
-    height: 100vh
-} */
-
-
-
-
-
-*{
-    box-sizing: border-box;
-    font-size: arial, Helvetica, sans-serif;
-    margin: 0;
-    padding:0;
-    color: pink;
-}
-
-footer {
-    background-color: yellow;
-    font-weight: bolder;
-    position: fixed;
-    margin: 1rem; 
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100rem;
-    height: 0px 1px;
-    font-weight: bold;
+    color: chocolate;
     text-align: center;
+    /* height: 7vh;
+    width: 15vh;
+    margin: 25px; */
+}
+    
+
+
+.panel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container {
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 6vh;
+    background-color: yellow;
+    font-size: x-large;
+    text-align: center;
+}
+.result {
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 60px;
+      
+}
+.option-container {
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+  
+}
+.option {    
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: pink;
+    border-radius: 25%;
+}
+.option:hover {
+    background-color: greenyellow;
+}
+.navigation {
+    width: 80vw;
+    height: vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+
+}
+  
+.submit,.nextquestion{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+
+
+.submit {
+    color: white;
+    background-color: #50DBB4;
+}
+
+.submit:hover {
+    background-color: greenyellow; 
+}
+    
+
+
+
+.nextquestion {
+    color: white;
+    background-color: #BF3325;
+}
+
+
+.nextquestion:hover {
+    background-color: greenyellow;
 }
