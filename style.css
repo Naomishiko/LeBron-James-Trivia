@@ -3,29 +3,42 @@ body{
     margin: 0;    
     width:100vw;
     height: 100vh;  
-    background-image: url(kingjames.jpg);  
+    background-image: url(kingjames.jpg);
 }
 
 
 h1 {
     background-color: gray;
-    color: white;
+    color: black;
     text-align: center;
     height: 6vh;
-    margin: 6px;
-  
-
+    margin: 4px;
+    text-transform: unset;
+    background-origin: border-box;
+    font-style: inherit;
+    font-weight: 800;
+    display: block;
+    cursor: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    ;
 }
+
 
 
 h2 {
-    color: chocolate;
+    color: white;
     text-align: center;
-    /* height: 7vh;
+    text-decoration: overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    /* background-image: url(./images.jpg);
+    height: 7vh;
     width: 15vh;
-    margin: 25px; */
+    margin: 25px auto; */
 }
     
+
+
 
 
 .panel {
@@ -43,14 +56,20 @@ h2 {
     background-color: yellow;
     font-size: x-large;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
 }
 .result {
     margin: 10px;
     padding: 5px;
     width:80vw;
-    height: 10vh;
+    height: 20vh;
     text-align: center;
+    box-sizing: border-box;
     font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       
 }
 .option-container {
@@ -69,6 +88,8 @@ h2 {
     font-size: larger;
     background-color: pink;
     border-radius: 25%;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .option:hover {
     background-color: greenyellow;
@@ -89,12 +110,15 @@ h2 {
     height: 8vh;
     padding: 5px;
     font-size: larger;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 
 .submit {
-    color: white;
-    background-color: #50DBB4;
+    color: gainsboro;
+    background-color: green;
 }
 
 .submit:hover {
@@ -105,7 +129,7 @@ h2 {
 
 
 .nextquestion {
-    color: white;
+    color:gainsboro;
     background-color: #BF3325;
 }
 
@@ -113,3 +137,20 @@ h2 {
 .nextquestion:hover {
     background-color: greenyellow;
 }
+
+
+
+p {
+    color: pink;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* 
+.audio {
+    color: pink;
+    text-align: right;
+} */

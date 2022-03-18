@@ -1,11 +1,11 @@
 
 const Questions = [{
   id: 0,
-  q: "Who is LeBron James?",
-  a: [{ text: "American Basketball Player", isRight: true },
-      { text: "American Tennis Player", isRight: false },
-      { text: "American Volleyball Player", isRight: false },
-      { text: "American Baseball Player", isRight: false }
+  q: "How many points did LeBron score in his first NBA game?",
+  a: [{ text: "18", isRight: false },
+      { text: "30", isRight: false },
+      { text: "25", isRight: true },
+      { text: "16", isRight: false }
   ]
 
 
@@ -39,7 +39,7 @@ const Questions = [{
 },
 {
   id: 5,
-  q: "How many kids LeBron James have?",
+  q: "How many kids James have?",
   a: [{ text: "6", isRight: false},
       { text: "5", isRight: false},
       { text: "4", isRight: false},
@@ -51,7 +51,7 @@ const Questions = [{
 
 { 
   id: 6,
-  q: "How many championships does LeBron James have?",
+  q: "How many championships does LeBron have?",
   a: [{ text: "8", isRight: false},
       { text: "6", isRight: false},
       { text: "4", isRight: true},
@@ -62,7 +62,7 @@ const Questions = [{
 
 {
   id: 7,
-  q: "For which NBA team did LeBron James play his rookie season?",
+  q: "For which NBA team did LeBron play his rookie season?",
   a: [{ text: "Miami Heat", isRight: false},
       { text: "New York Knicks", isRight: false},
       { text: "Boston Celtics", isRight: false},
@@ -73,7 +73,7 @@ const Questions = [{
 
 {
   id: 8,
-  q: "What high school sport did LeBron James Play along with basketball?",
+  q: "What high school sport did LeBron Play along with basketball?",
   a: [{ text: "Soccer", isRight: false},
       { text: "Baseball", isRight: false},
       { text: "Football", isRight: true},
@@ -85,7 +85,7 @@ const Questions = [{
 
 {
   id: 9,
-  q: "What is the name of LeBron James mother?",
+  q: "What is the name of James mother?",
   a: [{ text: "Mary", isRight: false},
       { text: "Joan", isRight: false},
       { text: "Gloria", isRight: true},
@@ -107,7 +107,7 @@ const Questions = [{
 
 {
   id: 11,
-  q: "LeBron James signed with what company for $90 million?",
+  q: "LeBron signed with what company for $90 million?",
   a: [{ text: "Nike", isRight: true},
       { text: "Adidas", isRight: false},
       { text: "Puma", isRight: false},
@@ -120,7 +120,7 @@ const Questions = [{
 
 {
   id: 12,
-  q: "Which charity does LeBron James support?",
+  q: "Which charity does LeBron support?",
   a: [{ text: "Love", isRight: false},
       { text: "Children's Defense Fund", isRight: true},
       { text: "Children's Basketball", isRight: false},
@@ -132,7 +132,7 @@ const Questions = [{
 
 { 
   id: 13,
-  q: "LeBron James high scoring game in 2004-2005 came against Toronto; how many points did he score?",
+  q: "LeBron high scoring game in 2004-2005 came against Toronto; how many points did he score?",
   a: [{ text: "33 Points", isRight: false},
       { text: "56 Points", isRight: true},
       { text: "45 Points", isRight: false},
@@ -143,7 +143,7 @@ const Questions = [{
 
 {
   id: 14,
-  q: "LeBron James was the youngest player in league history to be awarded which of the following?",
+  q: "LeBron was the youngest player in league history to be awarded which of the following?",
   a: [{ text: "ALL-star Honors", isRight: false},
       { text: "NBA star Honors", isRight: false},
       { text: "All-NBA Honors", isRight: true},
@@ -407,6 +407,58 @@ const Questions = [{
 },
 
 
+{
+  id: 36,
+  q: "How old was james' mother when she gave birth to him?",
+  a: [{ text: "16", isRight: true},
+      { text: "21", isRight: false},
+      { text: "26", isRight: false},
+      { text: "18", isRight: false},
+]
+},
+
+
+{
+  id: 37,
+  q: "James left the Cleveland Cavaliers to play for which team in 2010?",
+  a: [{ text: "Golden State Warriors", isRight: false},
+      { text: "Miami Heat", isRight: true},
+      { text: "Phoenix Suns", isRight: false},
+      { text: "Lakers", isRight: false},
+]
+},
+
+{
+  id: 38,
+  q: "When did LeBron go to his first NBA finals?",
+  a: [{ text: "2006", isRight: false},
+      { text: "2010", isRight: false},
+      { text: "2007", isRight: true},
+      { text: "2012", isRight: false},
+]
+},
+
+{
+  id: 39,
+  q: "What position does James play?",
+  a: [{ text: "Shooting Guard", isRight: false},
+      { text: "Power Forward", isRight: false},
+      { text: "Centre", isRight: false},
+      { text: "Small Forward", isRight: true},
+]
+},
+
+
+{
+  id: 40,
+  q: "LeBron signed the rookie contract with the Cleveland Cavalries for how many years?",
+  a: [{ text: "3", isRight: true},
+      { text: "6", isRight: false},
+      { text: "4", isRight: false},
+      { text: "5", isRight: false},
+
+  ]
+},
 
 
 ]
@@ -531,3 +583,4 @@ nextquestion.addEventListener("click", () => {
   }
 
 })
+
