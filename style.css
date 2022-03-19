@@ -168,7 +168,8 @@ p {
         font-size: 60%;
     }
     
-    .submit, .nextquestion {
+    .submit, .nextquestion, .navigation, .question-container, .option,
+    .panel, .result, .h1, .h2 {
         width: 10vh;
     }
 }
