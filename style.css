@@ -154,3 +154,21 @@ p {
     color: pink;
     text-align: right;
 } */
+
+
+/* Mobile friendly*/
+@media (max-width: 1200px) {
+    .question-container{
+        font-size: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    p, button{
+        font-size: 60%;
+    }
+    
+    .submit, .nextquestion {
+        width: 10vh;
+    }
+}
