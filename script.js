@@ -1,7 +1,7 @@
 
 const Questions = [{
   id: 0,
-  q: "How many points did LeBron score in his first NBA game?",
+  q: "1. How many points did LeBron score in his first NBA game?",
   a: [{ text: "18", isRight: false },
       { text: "30", isRight: false },
       { text: "25", isRight: true },
@@ -13,7 +13,7 @@ const Questions = [{
 },
 {
   id: 1,
-  q: "How old is LeBron James?",
+  q: "2. How old is LeBron James?",
   a: [{ text: "25", isRight: false },
       { text: "40", isRight: false },
       { text: "28", isRight: false },
@@ -26,7 +26,7 @@ const Questions = [{
 },
 {
   id: 3,
-  q: "What is the name of LeBron James wife?",
+  q: "3. What is the name of LeBron James wife?",
   a: [{ text: "Gabrielle Union", isRight: false},
       { text: "Savannah James", isRight: true},
       { text: "Kelly James", isRight: false},
@@ -39,7 +39,7 @@ const Questions = [{
 },
 {
   id: 5,
-  q: "How many kids James have?",
+  q: "4. How many kids James have?",
   a: [{ text: "6", isRight: false},
       { text: "5", isRight: false},
       { text: "4", isRight: false},
@@ -51,7 +51,7 @@ const Questions = [{
 
 { 
   id: 6,
-  q: "How many championships does LeBron have?",
+  q: "5. How many championships does LeBron have?",
   a: [{ text: "8", isRight: false},
       { text: "6", isRight: false},
       { text: "4", isRight: true},
@@ -62,7 +62,7 @@ const Questions = [{
 
 {
   id: 7,
-  q: "For which NBA team did LeBron play his rookie season?",
+  q: "6. For which NBA team did LeBron play his rookie season?",
   a: [{ text: "Miami Heat", isRight: false},
       { text: "New York Knicks", isRight: false},
       { text: "Boston Celtics", isRight: false},
@@ -73,7 +73,7 @@ const Questions = [{
 
 {
   id: 8,
-  q: "What high school sport did LeBron Play along with basketball?",
+  q: "7. What high school sport did LeBron Play along with basketball?",
   a: [{ text: "Soccer", isRight: false},
       { text: "Baseball", isRight: false},
       { text: "Football", isRight: true},
@@ -85,7 +85,7 @@ const Questions = [{
 
 {
   id: 9,
-  q: "What is the name of James mother?",
+  q: "8. What is the name of James mother?",
   a: [{ text: "Mary", isRight: false},
       { text: "Joan", isRight: false},
       { text: "Gloria", isRight: true},
@@ -96,7 +96,7 @@ const Questions = [{
 
 {
   id: 10,
-  q: "In what city, did LeBron James and Savannah Brinson get married?",
+  q: "9. In what city, did LeBron James and Savannah Brinson get married?",
   a: [{ text: "Miami beach", isRight: false},
       { text: "Akron", isRight: false},
       { text: "San Diego", isRight: true},
@@ -107,7 +107,7 @@ const Questions = [{
 
 {
   id: 11,
-  q: "LeBron signed with what company for $90 million?",
+  q: "10. LeBron signed with what company for $90 million?",
   a: [{ text: "Nike", isRight: true},
       { text: "Adidas", isRight: false},
       { text: "Puma", isRight: false},
@@ -120,7 +120,7 @@ const Questions = [{
 
 {
   id: 12,
-  q: "Which charity does LeBron support?",
+  q: "11. Which charity does LeBron support?",
   a: [{ text: "Love", isRight: false},
       { text: "Children's Defense Fund", isRight: true},
       { text: "Children's Basketball", isRight: false},
@@ -132,7 +132,7 @@ const Questions = [{
 
 { 
   id: 13,
-  q: "LeBron high scoring game in 2004-2005 came against Toronto; how many points did he score?",
+  q: "12. LeBron high scoring game in 2004-2005 came against Toronto; how many points did he score?",
   a: [{ text: "33 Points", isRight: false},
       { text: "56 Points", isRight: true},
       { text: "45 Points", isRight: false},
@@ -143,7 +143,7 @@ const Questions = [{
 
 {
   id: 14,
-  q: "LeBron was the youngest player in league history to be awarded which of the following?",
+  q: "13. LeBron was the youngest player in league history to be awarded which of the following?",
   a: [{ text: "ALL-star Honors", isRight: false},
       { text: "NBA star Honors", isRight: false},
       { text: "All-NBA Honors", isRight: true},
@@ -154,7 +154,7 @@ const Questions = [{
 
 {
   id: 15,
-  q: "What is the name of one of LeBron James's son?",
+  q: "14. What is the name of one of LeBron James's son?",
   a: [{ text: "Mike", isRight: false},
       { text: "John", isRight: false},
       { text: "Paul", isRight: false},
@@ -166,7 +166,7 @@ const Questions = [{
 
 {
   id: 16,
-  q: "What state is LeBron from?",
+  q: "15. What state is LeBron from?",
   a: [{ text: "Ohio", isRight: true},
       { text: "California", isRight: false},
       { text: "Miami", isRight: false},
@@ -178,7 +178,7 @@ const Questions = [{
 
 {
   id: 17,
-  q: "Who Drafted LeBron?",
+  q: "16. Who Drafted LeBron?",
   a: [{ text: "LA Lakers", isRight: false},
       { text: "Miami Heat", isRight: false},
       { text: "Phoenix Suns", isRight: false},
@@ -190,7 +190,7 @@ const Questions = [{
 
 {
   id: 18,
-  q: "What college did LeBron go to?",
+  q: "17. What college did LeBron go to?",
   a: [{ text: "Didn't go to college", isRight: true},
       { text: "Duke", isRight: false},
       { text: "Ohio State", isRight: false},
@@ -203,7 +203,7 @@ const Questions = [{
 
 { 
   id: 19,
-  q: "What is LeBron James number for the LA Lakers?",
+  q: "18. What is LeBron James number for the LA Lakers?",
   a: [{ text: "19", isRight: false},
       { text: "23", isRight: true},
       { text: "24", isRight: false},
@@ -215,7 +215,7 @@ const Questions = [{
 
 {
   id: 20,
-  q: "Which team did LeBron win his first NBA Championship with?",
+  q: "19. Which team did LeBron win his first NBA Championship with?",
   a: [{ text: "Miami Heat", isRight: true},
       { text: "Orlando Magic", isRight: false},
       { text: "Indiana Pacers", isRight: false},
@@ -227,7 +227,7 @@ const Questions = [{
 
 {
   id: 21,
-  q: "What is the current nickname of LeBron?",
+  q: "20. What is the current nickname of LeBron?",
   a: [{ text: "Speed", isRight: false},
       { text: "Shooter", isRight: false},
       { text: "Jumper", isRight: false},
@@ -239,7 +239,7 @@ const Questions = [{
 
 {
   id: 22,
-  q: "Which team did LeBron beat when leading a 3-1 comeback in the NBA finals?",
+  q: "21. Which team did LeBron beat when leading a 3-1 comeback in the NBA finals?",
   a: [{ text: "Golden State Warriors", isRight: true},
       { text: "Dallas Mavericks", isRight: false},
       { text: "Brooklyn Nets", isRight: false},
@@ -250,7 +250,7 @@ const Questions = [{
 
 {
   id: 23,
-  q: "Which spot was LeBron drafted in his draft class?",
+  q: "22. Which spot was LeBron drafted in his draft class?",
   a: [{ text: "4th", isRight: false},
       { text: "2nd", isRight: false},
       { text: "1st", isRight: true},
@@ -262,7 +262,7 @@ const Questions = [{
 
 {
   id: 24,
-  q: "How many regular season MVP Awards does LeBron have?",
+  q: "23. How many regular season MVP Awards does LeBron have?",
   a: [{ text: "4", isRight: true},
       { text: "2", isRight: false},
       { text: "5", isRight: false},
@@ -274,8 +274,8 @@ const Questions = [{
 
 
 {
-  id: 24,
-  q: "How tall is LeBron?",
+  id: 25,
+  q: "24. How tall is LeBron?",
   a: [{ text: "6'1", isRight: false},
       { text: "6'4", isRight: false},
       { text: "6'8", isRight: true},
@@ -285,8 +285,8 @@ const Questions = [{
 
 
 {
-  id: 25,
-  q: "How many NBA Finals MVP Awards does LeBron have?",
+  id: 26,
+  q: "25. How many NBA Finals MVP Awards does LeBron have?",
   a: [{ text: "8", isRight: false},
       { text: "6", isRight: false},
       { text: "2", isRight: false},
@@ -297,8 +297,8 @@ const Questions = [{
 
 
 {
-  id: 26,
-  q: "Which shoe line does LeBron endorse?",
+  id: 27,
+  q: "26. Which shoe line does LeBron endorse?",
   a: [{ text: "Puma", isRight: false},
       { text: "Nike", isRight: true},
       { text: "Under Armour", isRight: false},
@@ -309,8 +309,8 @@ const Questions = [{
 
 
 {
-  id: 26,
-  q: "What number did LeBron wear to start his NBA career?",
+  id: 28,
+  q: "27. What number did LeBron wear to start his NBA career?",
   a: [{ text: "14", isRight: false},
       { text: "24", isRight: false},
       { text: "23", isRight: true},
@@ -320,8 +320,8 @@ const Questions = [{
 
 
 {
-  id: 27,
-  q: "Which year did LeBron get drafted into the NBA?",
+  id: 29,
+  q: "28. Which year did LeBron get drafted into the NBA?",
   a: [{ text: "2003", isRight: true},
       { text: "2005", isRight: false},
       { text: "2008", isRight: false},
@@ -331,8 +331,8 @@ const Questions = [{
 
 
 {
-  id: 28,
-  q: "Which team did LeBron beat to win his first NBA Championship?",
+  id: 30,
+  q: "29. Which team did LeBron beat to win his first NBA Championship?",
   a: [{ text: "San Antonio Spurs", isRight: false},
       { text: "Boston Celtics", isRight: false},
       { text: "Golden State Warriors", isRight: false},
@@ -342,8 +342,8 @@ const Questions = [{
 
 
 {
-  id: 29,
-  q: "What was the high school nickname of LeBron?",
+  id: 31,
+  q: "30. What was the high school nickname of LeBron?",
   a: [{ text: "Bronny", isRight: false},
       { text: "The Chosen One", isRight: true},
       { text: "The Beast", isRight: false},
@@ -353,8 +353,8 @@ const Questions = [{
 
 
 {
-  id: 30,
-  q: "How many Olympics gold medals does LeBron have?",
+  id: 32,
+  q: "31. How many Olympics gold medals does LeBron have?",
   a: [{ text: "3", isRight: false},
       { text: "2", isRight: true},
       { text: "6", isRight: false},
@@ -364,8 +364,8 @@ const Questions = [{
 
 
 {
-  id: 32,
-  q: "Who was LeBron's coach on the Miami Heat?",
+  id: 33,
+  q: "32. Who was LeBron's coach on the Miami Heat?",
   a: [{ text: "Ty Lue", isRight: false},
       { text: "Pat Riley", isRight: false},
       { text: "Steve Kerr", isRight: false},
@@ -375,8 +375,8 @@ const Questions = [{
 
 
 {
-  id: 33,
-  q: "What is LeBron's career high in points scored in a single game?",
+  id: 34,
+  q: "33. What is LeBron's career high in points scored in a single game?",
   a: [{ text: "61", isRight: true},
       { text: "60", isRight: false},
       { text: "48", isRight: false},
@@ -386,8 +386,8 @@ const Questions = [{
 
 
 {
-  id: 34,
-  q: "What is the name of LeBron's former high school team?",
+  id: 35,
+  q: "34. What is the name of LeBron's former high school team?",
   a: [{ text: "Hamilton High School", isRight: false},
       { text: "Ohio High School", isRight: false},
       { text: "Luke High School", isRight: false},
@@ -397,8 +397,8 @@ const Questions = [{
 
 
 {
-  id: 35,
-  q: "What is LeBron James middle name?",
+  id: 36,
+  q: "35. What is LeBron James middle name?",
   a: [{ text: "Bronny", isRight: false},
       { text: "Anthony", isRight: false},
       { text: "Mike", isRight: false},
@@ -408,8 +408,8 @@ const Questions = [{
 
 
 {
-  id: 36,
-  q: "How old was james' mother when she gave birth to him?",
+  id: 37,
+  q: "36. How old was james' mother when she gave birth to him?",
   a: [{ text: "16", isRight: true},
       { text: "21", isRight: false},
       { text: "26", isRight: false},
@@ -419,8 +419,8 @@ const Questions = [{
 
 
 {
-  id: 37,
-  q: "James left the Cleveland Cavaliers to play for which team in 2010?",
+  id: 38,
+  q: "37. James left the Cleveland Cavaliers to play for which team in 2010?",
   a: [{ text: "Golden State Warriors", isRight: false},
       { text: "Miami Heat", isRight: true},
       { text: "Phoenix Suns", isRight: false},
@@ -429,8 +429,8 @@ const Questions = [{
 },
 
 {
-  id: 38,
-  q: "When did LeBron go to his first NBA finals?",
+  id: 39,
+  q: "38. When did LeBron go to his first NBA finals?",
   a: [{ text: "2006", isRight: false},
       { text: "2010", isRight: false},
       { text: "2007", isRight: true},
@@ -439,8 +439,8 @@ const Questions = [{
 },
 
 {
-  id: 39,
-  q: "What position does James play?",
+  id: 40,
+  q: "39. What position does James play?",
   a: [{ text: "Shooting Guard", isRight: false},
       { text: "Power Forward", isRight: false},
       { text: "Centre", isRight: false},
@@ -450,8 +450,8 @@ const Questions = [{
 
 
 {
-  id: 40,
-  q: "LeBron signed the rookie contract with the Cleveland Cavalries for how many years?",
+  id: 41,
+  q: "40. LeBron signed the rookie contract with the Cleveland Cavalries for how many years?",
   a: [{ text: "3", isRight: true},
       { text: "6", isRight: false},
       { text: "4", isRight: false},
@@ -576,7 +576,7 @@ var id = 0;
 
 nextquestion.addEventListener("click", () => {
   start = false;
-  if (id < 35) {
+  if (id < 40) {
       id++;
       iterate(id);
       console.log(id);

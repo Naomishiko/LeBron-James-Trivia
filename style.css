@@ -4,6 +4,7 @@ body{
     width:100vw;
     height: 100vh;  
     background-image: url(kingjames.jpg);
+    background-size: 100%;
 }
 
 
@@ -12,14 +13,14 @@ h1 {
     color: black;
     text-align: center;
     height: 6vh;
-    margin: 4px;
+    margin: 1px;
     text-transform: unset;
     background-origin: border-box;
     font-style: inherit;
     font-weight: 800;
     display: block;
     cursor: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     ;
 }
 
@@ -27,14 +28,10 @@ h1 {
 
 h2 {
     color: white;
-    text-align: center;
+    text-align: left;
     text-decoration: overline;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-    /* background-image: url(./images.jpg);
-    height: 7vh;
-    width: 15vh;
-    margin: 25px auto; */
 }
     
 
