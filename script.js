@@ -132,11 +132,11 @@ const Questions = [{
 
 { 
   id: 13,
-  q: "12. LeBron high scoring game in 2004-2005 came against Toronto; how many points did he score?",
-  a: [{ text: "33 Points", isRight: false},
-      { text: "56 Points", isRight: true},
-      { text: "45 Points", isRight: false},
-      { text: "60 Points", isRight: false},
+  q: "12. When is LeBron's birthday?",
+  a: [{ text: "December 17th", isRight: false},
+      { text: "December 30th", isRight: true},
+      { text: "January 10th", isRight: false},
+      { text: "January 1st", isRight: false},
 ]
 },
 
