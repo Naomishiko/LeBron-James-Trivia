@@ -583,4 +583,3 @@ nextquestion.addEventListener("click", () => {
   }
 
 })
-
