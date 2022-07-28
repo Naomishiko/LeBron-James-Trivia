@@ -14,7 +14,7 @@ So you think you know LeBron James? let's see how you do on this quiz.
 # Stack
 
 This project was made using
-#HTML5 #CSS #JAVASCRIPT #YOUTUBE
+#HTML5 #CSS #JAVASCRIPT 
 
 # Home Page photos
 <img width="1274" alt="Screen Shot 2022-03-18 at 12 41 22 AM" src="https://user-images.githubusercontent.com/98294096/158957909-28ec48f3-d970-40ab-b1a7-3aa00a31c30b.png">
