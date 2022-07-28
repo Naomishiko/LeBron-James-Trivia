@@ -17,7 +17,11 @@ This project was made using
 #HTML5 #CSS #JAVASCRIPT 
 
 # Home Page photos
-<img width="1274" alt="Screen Shot 2022-03-18 at 12 41 22 AM" src="https://user-images.githubusercontent.com/98294096/158957909-28ec48f3-d970-40ab-b1a7-3aa00a31c30b.png">
+
+
+https://user-images.githubusercontent.com/98294096/181403369-c813ab8c-ba92-4973-b4f7-7f548df0fa7f.mov
+
+
 
 
 
