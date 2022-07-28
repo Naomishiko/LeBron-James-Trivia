@@ -1,5 +1,5 @@
+<img width="1440" alt="Screen Shot 2022-07-27 at 6 56 18 PM" src="https://user-images.githubusercontent.com/98294096/181403569-17fac6c3-f42a-4773-ad0e-80145dddbefb.png">
 
-<img width="1274" alt="Screen Shot 2022-03-17 at 11 39 20 PM" src="https://user-images.githubusercontent.com/98294096/158950653-8bccaa4f-5f83-4de2-8a32-55de1fdbf7c6.png">
 
 
 # LeBron-James-Trivia Quiz
