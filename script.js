@@ -68,7 +68,7 @@ const questions = [
       question: "What high school sport did LeBron Play along with basketball?",
       optionA: "Football",
       optionB: "Soccer",
-      optionC: "Africa",
+      optionC: "Tennis",
       optionD: "Baseball",
       correctOption: "optionA"
   },

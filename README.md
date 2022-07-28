@@ -8,7 +8,7 @@
 
 Whether you're a fan of general trivia, trivia questions, or LeBron James fan. This game is for you! 
 So you think you know LeBron James? let's see how you do on this quiz.
-40 Questions about the Actor/Basketball Player. Enjoy!
+21 Questions about the Actor/Basketball Player. Enjoy!
 
 
 # Stack

@@ -1,12 +1,49 @@
 *{
-    margin: 0;
+    margin: 30;
     padding: 80;
     box-sizing: border-box;
+    
 }
+
+
   
 html, body{
     height: 100%;
+    transform-box:var(0,0,0)
+    
 }
+
+
+h2 {
+    font-size: 2.5em;
+    font-family:Rancho;
+    border-style: solid;
+    animation-name: scale;
+    animation-duration: 1s;
+    background-image: 
+   linear-gradient(90deg, #00e3c8 0%,#fc006d 49%, #82fc00 100%);
+    background-size: 200%;
+    position: relative;
+    padding: 3px;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    animation: anime 2s linear infinite;
+    -webkit-animation: anime 2.5s linear infinite;
+    
+}
+@keyframes anime {
+    0%{
+        background-position: 100%;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+      
 
 
 body{
@@ -15,20 +52,31 @@ body{
     
 }
 
+
 main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    background-image: url(./kingjames.jpg);
+    background-color: black bold;
+    background-image: url(./kingjaames.jpg);
     background-color : black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+    border: radius 6px;
    
     
+}
+
+@BtnWidth: 300px;
+@BtnHeight: 80px;
+@BGColor: linear-gradient(to right, red 0%, orange 15%, yellow 30%, green 45%, blue 60%, indigo 75%, purple 90%, red 100%);
+@Anim: slide 4s infinite;
+
+:root {
+  background: black;
 }
 
 .game-quiz-container{
@@ -41,7 +89,7 @@ main{
     justify-content: space-around;
     border-radius: 35px;
     font-size: 1.6em;
-    background-image:linear-gradient(3deg, rgb(250, 100, 30) 10%, gold 70%, white 90%)
+    background-image:linear-gradient(3deg, rgb(236, 55, 170) 10%, gold 66%, rgb(20, 228, 238) 85%, black 100%)
 }
 
 .game-details-container{
@@ -130,7 +178,6 @@ input[type=radio]:checked ~ .option {
     width: 11rem;
     height: 2rem;
     border-radius: 10px;
-    background-color: gold;
     color: rgb(14, 5, 9);
     font-weight: 900;
     border: 4px solid rgb(231, 239, 228);
@@ -138,7 +185,7 @@ input[type=radio]:checked ~ .option {
     outline: none;
 }
 .next-button-container button:hover{
-    background-color: rgb(36, 211, 89);
+    background-color: rgb(78, 240, 19);
 }
 
 .modal-container{
@@ -287,3 +334,9 @@ input[type=radio]:checked ~ .option {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+
+
+
+
+  
